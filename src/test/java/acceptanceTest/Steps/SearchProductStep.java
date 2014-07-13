@@ -27,6 +27,6 @@ public class SearchProductStep{
 
     @Then("^I should see the item$")
     public void I_should_see_the_item() {     
-        assert true;
+        assert false;
     }
 }
