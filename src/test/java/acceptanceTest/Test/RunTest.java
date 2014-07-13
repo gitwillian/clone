@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
     features = {"features/"},
     glue = { "acceptanceTest.Steps"},
     format = {"json:target/cucumber.json"},
-    tags = { "@test" }
+    tags = { "@test, @test1, @test2" }
     )
 public class RunTest{
     
