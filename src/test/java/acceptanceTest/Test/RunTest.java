@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
     //this code will only look into "features/" folder for features
     features = {"features/"},
     glue = { "acceptanceTest.Steps"},
-    format = {"pretty", "html:target/report", "json:target/cucumber/cucumber.json" },
+    format = {"pretty", "html:target/report", "json:target/cucumber.json" },
     tags = { "@test" }
     )
 public class RunTest{
